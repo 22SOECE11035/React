@@ -4,7 +4,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 //import ApiSimulation from './react/hoockex4'
 //import ApoiSimulation1 from './react/useeffect'
-import UserComp1 from './react/cleanup'
+//import UserComp1 from './react/cleanup'
+//import { UserContext } from './file1'
+import RegistrationPage from './react/registration'
 // import MyList from './react/mylist.jsx'
 // import MyButton from './react/mybtn.jsx'
 // import MyComponent from './react/Component.jsx'
@@ -17,6 +19,6 @@ import UserComp1 from './react/cleanup'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UserComp1/>
+    <RegistrationPage/>
   </StrictMode>,
 )
